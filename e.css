@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.box{
+    height: 1024px;
+    background-image: url("./rasm/image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 30px 0;
+}
+header div{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.btn{
+    border: none;
+    padding: 9px 19px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background: #009FF5B5;
+    box-shadow: 0px 4px 4px 0px #DAD3FF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+h1{
+    padding: 30px 49px;
+    width: 654px;
+    height: 103px;
+    text-align: center;
+    border-radius: 50px;
+    background: #FFC611;
+    border: 11px solid #5A5555;
+    text-shadow: 0px 4px 4px #0047FF;
+    margin: 130px auto;
+}
+.card{
+    width: 361px;
+    height: 420px;
+    text-align: center;
+    background: #1F1F1F;
+    box-shadow: 8px 7px 20px 0px #FFFFFF;
+}
+.card h2{
+font-weight: 600;
+font-size: 36px;
+text-shadow: 0px 4px 4px  #FFC200;
+}
+.ota{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    background-color: black;
+    padding: 61px 0;
+}
+.info h2{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #5A5555;
+    text-shadow: 0px 4px 4px #FFFFFF;
+    margin-bottom: 50px;
+}
+.info-ota{
+    display: flex;
+    gap: 87px;
+    padding: 50px 0;
+}
+.info-ota p{
+font-weight: 600;
+font-size: 27px;
+line-height: 31.64px;
+color:white;
+}
+.btn2{
+    padding: 14px 71px;
+    color: #000;
+    margin: 50px;
+    box-shadow: 0px 7px 12.8px 0px #FFFFFF;
+    background: #FFC200;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31.64px;
+    border: none;
+}
+.btn2:hover{
+    background: #535353;
+    color: white;
+}
+.fo{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+footer{
+    background: #FFC611;
+}
+.fo div{
+    display: flex;
+    gap: 40px;
+}
